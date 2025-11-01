@@ -42,3 +42,7 @@ lerna-debug.log*
 # Prisma
 prisma/migrations
 
+# PM2 logs
+logs/
+*.log
+

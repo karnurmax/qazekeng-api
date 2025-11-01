@@ -21,7 +21,13 @@
     "typeorm": "typeorm-ts-node-commonjs",
     "migration:generate": "typeorm-ts-node-commonjs migration:generate",
     "migration:run": "typeorm-ts-node-commonjs migration:run",
-    "migration:revert": "typeorm-ts-node-commonjs migration:revert"
+    "migration:revert": "typeorm-ts-node-commonjs migration:revert",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop qazekeng-api",
+    "pm2:restart": "pm2 restart qazekeng-api",
+    "pm2:delete": "pm2 delete qazekeng-api",
+    "pm2:logs": "pm2 logs qazekeng-api",
+    "pm2:monit": "pm2 monit"
   },
   "dependencies": {
     "@nestjs/common": "^10.3.0",
